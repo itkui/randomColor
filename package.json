@@ -1,0 +1,43 @@
+{
+  "name": "random-color",
+  "version": "1.0.0",
+  "description": "random color",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/my-lib.umd.js",
+  "module": "./dist/my-lib.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.es.js",
+      "require": "./dist/my-lib.umd.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itkui/randomColor.git"
+  },
+  "keywords": [
+    "random-color",
+    "colors"
+  ],
+  "author": {
+    "name": "itkui",
+    "email": "13452903663@163.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itkui/randomColor/issues"
+  },
+  "homepage": "https://github.com/itkui/randomColor#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "vite": "^2.7.13"
+  }
+}

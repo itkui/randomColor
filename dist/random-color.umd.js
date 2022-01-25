@@ -1,0 +1,1 @@
+(function(o,e){typeof exports=="object"&&typeof module!="undefined"?module.exports=e():typeof define=="function"&&define.amd?define(e):(o=typeof globalThis!="undefined"?globalThis:o||self,o["random-color"]=e())})(this,function(){"use strict";return()=>{console.log("color")}});
